@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>favourite players</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+
+  <body>
+    <!-- header part starts from here -->
+    <header>
+        <h1 class="main-header-of-site text-center">Choose Favourite Five Players</h1>
+        <div class="main-header-desc text-white text-center">
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit</p> 
+            <p>officia consequat duis enim velit mollit. Exercitation veniam consequat sunt </p>
+            <p> nostrud amet.</p>
+        </div>
+    </header>
+
+    <!-- main part starts from here -->
+    <main>
+        <div class="container">
+            <div class="main-body row">
+                <div class="players-part col-9">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="images/ALABA_AV38623Thumb.jpg" class="card-img-top" alt="...">
+                            <div class="card-body customise-card-body">
+                              <h5 class="card-title text-center" id="alaba-2">ALABA</h5>
+                              <div class="customise-card-text d-flex justify-content-evenly">
+                                <span>36 Goals</span>
+                                <span class="me-2">--Score--</span>
+                                <span>120 Assist</span>
+                              </div>
+                            </div>
+                            <div class="card-button text-center">
+                              <button id="alaba" onclick="disable(this)">SELECT</button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="images/BENZEMA_AV38083Thumb.jpg" class="card-img-top" alt="...">
+                            <div class="card-body customise-card-body">
+                              <h5 class="card-title text-center" id="benzema-2">BENZEMA</h5>
+                              <div class="customise-card-text d-flex justify-content-evenly">
+                                <span class="me-2">20 Goals</span>
+                                <span class="me-2">--Score--</span>
+                                <span class="me-2">36 Assist</span>
+                              </div>
+                            </div>
+                            <div class="card-button text-center">
+                              <button id="benzema" onclick="disable(this)">SELECT</button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="images/CARVAJAL_AV38210Thumb.jpg" class="card-img-top" alt="...">
+                            <div class="card-body customise-card-body">
+                              <h5 class="card-title text-center" id="carvajal-2">CARVAJAL</h5>
+                              <div class="customise-card-text d-flex justify-content-evenly">
+                                <span class="me-2">45 Goals</span>
+                                <span class="me-2">--Score--</span>
+                                <span class="me-2">20 Assist</span>
+                              </div>
+                            </div>
+                            <div class="card-button text-center">
+                              <button id="carvajal" onclick="disable(this)">SELECT</button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="images/HAZARD_AV38313Thumb.jpg" class="card-img-top" alt="...">
+                            <div class="card-body customise-card-body">
+                              <h5 class="card-title text-center" id="hazard-2">HAZARD</h5>
+                              <div class="customise-card-text d-flex justify-content-evenly">
+                                <span class="me-2">53 Goals</span>
+                                <span class="me-2">--Score--</span>
+                                <span class="me-2">16 Assist</span>
+                              </div>
+                            </div>
+                            <div class="card-button text-center">
+                              <button id="hazard" onclick="disable(this)">SELECT</button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="images/MARIANO_AV38461Thumb.jpg" class="card-img-top" alt="...">
+                            <div class="card-body customise-card-body">
+                              <h5 class="card-title text-center" id="mariano-2">MARIANO</h5>
+                              <div class="customise-card-text d-flex justify-content-evenly">
+                                <span class="me-2">75 Goals</span>
+                                <span class="me-2">--Score--</span>
+                                <span class="me-2">99 Assist</span>
+                              </div>
+                            </div>
+                            <div class="card-button text-center">
+                              <button id="mariano" onclick="disable(this)">SELECT</button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="images/MILITAO_AV38355Thumb.jpg" class="card-img-top" alt="...">
+                            <div class="card-body customise-card-body">
+                              <h5 class="card-title text-center" id="militao-2">MILITAO</h5>
+                              <div class="customise-card-text d-flex justify-content-evenly">
+                                <span class="me-2">72 Goals</span>
+                                <span class="me-2">--Score--</span>
+                                <span class="me-2">12 Assist</span>
+                              </div>
+                            </div>
+                            <div class="card-button text-center">
+                              <button id="militao" onclick="disable(this)">SELECT</button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="images/MODRIC_AV38707Thumb.jpg" class="card-img-top" alt="...">
+                            <div class="card-body customise-card-body">
+                              <h5 class="card-title text-center" id="modric-2">MODRIC</h5>
+                              <div class="customise-card-text d-flex justify-content-evenly">
+                                <span class="me-2">102 Goals</span>
+                                <span class="me-2">--Score--</span>
+                                <span class="me-2">120 Assist</span>
+                              </div>
+                            </div>
+                            <div class="card-button text-center">
+                              <button id="modric" onclick="disable(this)">SELECT</button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="images/NACHO_AV37977Thumb.jpg" class="card-img-top" alt="...">
+                            <div class="card-body customise-card-body">
+                              <h5 class="card-title text-center" id="nacho-2">NACHO</h5>
+                              <div class="customise-card-text d-flex justify-content-evenly">
+                                <span class="me-2">6 Goals</span>
+                                <span class="me-2">--Score--</span>
+                                <span class="me-2">20 Assist</span>
+                              </div>
+                            </div>
+                            <div class="card-button text-center">
+                              <button id="nacho" onclick="disable(this)">SELECT</button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="images/RODRYGO_AV38566Thumb.jpg" class="card-img-top" alt="...">
+                            <div class="card-body customise-card-body">
+                              <h5 class="card-title text-center" id="rodrygo-2">RODRYGO</h5>
+                              <div class="customise-card-text d-flex justify-content-evenly">
+                                <span class="me-2">62 Goals</span>
+                                <span class="me-2">--Score--</span>
+                                <span class="me-2">80 Assist</span>
+                              </div>
+                            </div>
+                            <div class="card-button text-center">
+                              <button id="rodrygo" onclick="disable(this)">SELECT</button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="images/TCHOUAMENI_AV38676Thumb.jpg" class="card-img-top" alt="...">
+                            <div class="card-body customise-card-body">
+                              <h5 class="card-title text-center" id="tcho-2">TCHOUAMENI</h5>
+                              <div class="customise-card-text d-flex justify-content-evenly">
+                                <span class="me-2">86 Goals</span>
+                                <span class="me-2">--Score--</span>
+                                <span class="me-2">99 Assist</span>
+                              </div>
+                            </div>
+                            <div class="card-button text-center">
+                              <button id="tcho" onclick="disable(this)">SELECT</button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="images/VALLEJO_AV37949Thumb.jpg" class="card-img-top" alt="...">
+                            <div class="card-body customise-card-body">
+                              <h5 class="card-title text-center" id="vallejo-2">VALLEJO</h5>
+                              <div class="customise-card-text d-flex justify-content-evenly">
+                                <span class="me-2">200 Goals</span>
+                                <span class="me-2">--Score--</span>
+                                <span class="me-2">30 Assist</span>
+                              </div>
+                            </div>
+                            <div class="card-button text-center">
+                              <button id="vallejo" onclick="disable(this)">SELECT</button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="images/VINICIUS_AV38392Thumb.jpg" class="card-img-top" alt="...">
+                            <div class="card-body customise-card-body">
+                              <h5 class="card-title text-center" id="vini-2">VINICIUS</h5>
+                              <div class="customise-card-text d-flex justify-content-evenly">
+                                <span class="me-2">23 Goals</span>
+                                <span class="me-2">--Score--</span>
+                                <span class="me-2">10 Assist</span>
+                              </div>
+                            </div>
+                            <div class="card-button text-center">
+                              <button id="vini" onclick="disable(this)">SELECT</button>
+                            </div>
+                          </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- calculation part starts from here -->
+                <div class="select-calculation-part col-3">
+                  <div class="row row-cols-1 row-cols-md-1 g-4">
+
+                    <!-- fav player name selection -->
+                    <div class="col">
+                      <div class="card h-100">
+                        <div class="top-five ps-5">
+                          <h4>Selected V</h4>
+                          <div id="fav-players">
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- budget part starts from here -->
+                    <div class="col">
+                      <div class="card h-100">
+                        <div class="budget px-5">
+                          <h4>Budget</h4>
+                            <div class="per-player-budget">
+                              <div class="d-flex justify-content-between">
+                                <span>Per Player  :</span>
+                                <input type="number" id="one-player-expenses" name="">
+                              </div>
+                              <br>
+                              <button id="calculate-player-expenses">Calculate</button>
+                              <br><br>
+                              <p>Player Expenses: $<span id="total-player-expenses">00</span></p>
+                            </div>
+
+
+                            <div class="manager-and-coach-cost">
+                              <div class="d-flex justify-content-between">
+                                <span>Manager  :</span>
+                                <input type="number" id="manager-expenses" name="">
+                              </div>
+                              <br>
+                              <div class="d-flex justify-content-between">
+                                <span>Coach  :</span>
+                                <input type="number" id="coach-expenses" name="">
+                              </div>
+                              <br>
+                              <button id="calculate-total-expenses">Calculate Total</button>
+                              <br><br>
+                              <p>Total: $<span id="total-expenses">00</span></p>
+                            </div>
+
+
+                        </div>
+                      </div>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer part starts from here -->
+    <footer>
+      <hr>
+      <p>Copyright @ 2022 All Rights Reserved.</p>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!-- js file  -->
+    <script src="js/app.js"></script>
+    <script src="js/budget.js"></script>
+  </body>
+</html>
